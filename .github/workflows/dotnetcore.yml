@@ -22,4 +22,4 @@ jobs:
     - name: Build
       run: dotnet build backend\gce\gce.csproj --configuration Release --no-restore
     - name: Test
-      run: dotnet test backend\test\gce.test.csproj --no-restore --verbosity normal
+      run: dotnet test backend\gce.test\gce.test.csproj --no-restore --verbosity normal
